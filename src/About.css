@@ -42,8 +42,15 @@ a.bottom__to__top.active{
 }
 
 .about__navbar{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 2%;
+  
+    padding: 10px;
+}
+
+.skill_link:hover{
+    color: #F9004D;
 }
 
 

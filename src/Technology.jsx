@@ -2,7 +2,7 @@ const Technology = () => {
   return (
     <div className="skill_page">
       <div className="backend_div">
-        <h1 className=" p__color skillend">Tools & Technology</h1>
+        <h1 className=" p__color skillend">Tools</h1>
         <div className="skill_images_div">
           <div className="skill_item">
             <img

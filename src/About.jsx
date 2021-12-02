@@ -30,13 +30,11 @@ function About() {
             
               <br />
               <div className="about__navbar">
-                <Link to="/">Frontend</Link>
-                <Link to="/backend">Backend</Link>
-                <Link to="/database">Database</Link>
-                <Link to="/language">Languages</Link>
-                <Link to="/tech">Tools & Technology</Link>
-
-                
+                <Link className="skill_link" to="/">Frontend</Link>
+                <Link className="skill_link" to="/backend">Backend</Link>
+                <Link className="skill_link" to="/database">Database</Link>
+                <Link className="skill_link" to="/language">Languages</Link>
+                <Link className="skill_link" to="/tech">Tools</Link>
               </div>
 
               <Route exact path="/">

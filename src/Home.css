@@ -14,7 +14,7 @@ li.nav__items{
     padding-bottom: 15px;
 }
 .home__content{
-    padding: 125px 0px;
+    padding: 50px 0px;
 }
 h1.home__text{
     font-size: 18px;
@@ -76,12 +76,15 @@ li.sideNavbar{
 .container{
     display: flex;
     justify-content: space-between;
+    height: 80vh;
 }
 
 .image__div{
     width: 500px ;
     height: 400px;
- 
+    
+    margin-top: 10px;
+    text-align: center;
 }
 
 
