@@ -56,7 +56,10 @@ function Project() {
                 < ImBlogger2 className="github_icon"/>
                 </a>
                 </div>
-                <button className="about btn pointer">View</button>
+                
+                <a href="https://clonednykaa.herokuapp.com/">
+                  <button className="about btn pointer">View</button>
+                </a>
               </div>
             </div>
           </div>
