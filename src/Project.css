@@ -50,7 +50,7 @@ p.heading.p__color {
   align-items: center;
   color: #fff;
   justify-content: space-between;
-
+  /* border:1px solid #ef0963; */
 }
 
 .img_link{

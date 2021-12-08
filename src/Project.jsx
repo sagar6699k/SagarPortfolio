@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 // import Github from "./img/github_logo.png";
 import Scavenger from "./img/scav1.png";
+import YT from "./img/YT.png";
 import {BsGithub} from "react-icons/bs"
 import {ImBlogger2} from "react-icons/im"
 
@@ -64,6 +65,7 @@ function Project() {
             </div>
           </div>
 
+          
           <div className="col__2">
             <div className="service__box pointer">
               <div className="icon">
@@ -86,6 +88,84 @@ function Project() {
                 <h5>Tech Stack : </h5>
                 <p className="p service__text p__color">
                   MongoDB | Expressjs | Reactjs | Nodejs | CSS.
+                </p>
+              </div>
+
+              <div className="project_links">
+                <div className="img_link">
+                  <a href="https://github.com/sagar6699k/E-wasteManagement">
+                  < BsGithub className="github_icon"/>
+                  </a>
+
+                  <a href="https://medium.com/@pandeypushpendra3/scavengers-the-e-waste-management-app-afc39f79f4aa">
+                  < ImBlogger2 className="github_icon"/>
+                  </a>
+                </div>
+                <a href="https://e-waste-scavenger.herokuapp.com/">
+                  <button className="about btn pointer">View</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col__2">
+            <div className="service__box pointer">
+              <div className="icon">
+                <img src={YT} alt="" className="project__img2" />
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">
+                  YouTube-Clone
+                </h1>
+                <p className="p service__text p__color">
+                Enjoy watching the latest trending videos same like actual youtube, you can also search your favourite videos in our clone youtube
+                </p>
+              </div>
+
+              <div className="tech_stack">
+                <h5>Tech Stack : </h5>
+                <p className="p service__text p__color">
+                  HTML | CSS | JAVASCRIPT.
+                </p>
+              </div>
+
+              <div className="project_links">
+                <div className="img_link">
+                  <a href="https://github.com/sagar6699k/youtube_clone">
+                  < BsGithub className="github_icon"/>
+                  </a>
+                  
+                </div>
+                <a href="https://sagar6699k.github.io/youtube_clone/">
+                  <button className="about btn pointer">View</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="col__2">
+            <div className="service__box pointer">
+              <div className="icon">
+                <img src={YT} alt="" className="project__img2" />
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">
+                  YouTube-Clone
+                </h1>
+                <p className="p service__text p__color">
+                Enjoy watching latest trending videos same like actual youtube,
+                  you can also search your favourite videos in our clone youtuve
+                </p>
+              </div>
+
+              <div className="tech_stack">
+                <h5>Tech Stack : </h5>
+                <p className="p service__text p__color">
+                HTML | CSS | JAVASCRIPT.
                 </p>
               </div>
 

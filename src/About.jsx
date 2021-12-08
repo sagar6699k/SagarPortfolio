@@ -65,9 +65,8 @@ function About() {
                 <a href="https://drive.google.com/file/d/14Y67z3KJuYtgkF3ny9YG9Td8OFLlTEuO/view?usp=sharing">
                   <button className="about btn pointer">Download CV</button>
                 </a>
-               
-              
               </div>
+              
             </div>
           </div>
         </div>
