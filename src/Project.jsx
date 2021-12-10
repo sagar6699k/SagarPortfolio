@@ -3,6 +3,7 @@ import "./Project.css";
 // import Github from "./img/github_logo.png";
 import Scavenger from "./img/scav1.png";
 import YT from "./img/YT.png";
+import weather_app from "./img/weather_app.png";
 import {BsGithub} from "react-icons/bs"
 import {ImBlogger2} from "react-icons/im"
 
@@ -150,15 +151,14 @@ function Project() {
           <div className="col__2">
             <div className="service__box pointer">
               <div className="icon">
-                <img src={YT} alt="" className="project__img2" />
+                <img src={weather_app} alt="" className="project__img2" />
               </div>
               <div className="service__meta">
                 <h1 className="service__text">
-                  YouTube-Clone
+                  React Weather App
                 </h1>
                 <p className="p service__text p__color">
-                Enjoy watching latest trending videos same like actual youtube,
-                  you can also search your favourite videos in our clone youtuve
+                Check real time weather of your city, just enter name of your city and you will get all the necessary information of your city.
                 </p>
               </div>
 
@@ -171,15 +171,13 @@ function Project() {
 
               <div className="project_links">
                 <div className="img_link">
-                  <a href="https://github.com/sagar6699k/E-wasteManagement">
+                  <a href="https://github.com/sagar6699k/Weather-app">
                   < BsGithub className="github_icon"/>
                   </a>
 
-                  <a href="https://medium.com/@pandeypushpendra3/scavengers-the-e-waste-management-app-afc39f79f4aa">
-                  < ImBlogger2 className="github_icon"/>
-                  </a>
+                 
                 </div>
-                <a href="https://e-waste-scavenger.herokuapp.com/">
+                <a href="https://weatherapp-eta.vercel.app/">
                   <button className="about btn pointer">View</button>
                 </a>
               </div>
