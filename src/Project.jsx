@@ -103,7 +103,7 @@ function Project() {
                   < ImBlogger2 className="github_icon"/>
                   </a>
                 </div>
-                <a href="https://e-waste-scavenger.herokuapp.com/">
+                <a href="https://e-waste-management.netlify.app/">
                   <button className="about btn pointer">View</button>
                 </a>
               </div>
