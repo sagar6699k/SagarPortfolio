@@ -20,7 +20,7 @@ const Language = () => {
               alt=""
               className="skill_img"
             />
-            <p>Javascript</p>
+            <p>Python</p>
           </div>
 
         
