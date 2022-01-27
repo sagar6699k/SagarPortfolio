@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Home.css";
 import logo from "./img/logo.png";
-import sk from "./img/pic2circle.png";
+import sk from "./img/BW_Profile-modified.png";
+// import sk from "./img/pic2circle.png";
 
 function Home() {
   // fixed Header
