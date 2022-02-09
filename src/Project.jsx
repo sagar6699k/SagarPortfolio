@@ -191,50 +191,8 @@ function Project() {
 
 
 
-          <div className="col__2">
-            <div className="service__box pointer">
-              <div className="icon">
-                <img src={YT} alt="" className="project__img2" />
-              </div>
-              <div className="service__meta">
-                <h1 className="service__text">
-                  YouTube-Clone
-                </h1>
-                <p className="p service__text p__color">
-                Enjoy watching the latest trending videos same like actual youtube, you can also search your favourite videos in our clone youtube
-                </p>
-              </div>
-
-              <div className="tech_stack">
-                <h5>Tech Stack : </h5>
-                <p className="p service__text p__color">
-                  HTML | CSS | JAVASCRIPT.
-                </p>
-              </div>
-
-              <div className="project_links">
-                <div className="img_link">
-                  <a href="https://github.com/sagar6699k/youtube_clone">
-                  < BsGithub className="github_icon"/>
-                  </a>
-                  
-                </div>
-                <a href="https://sagar6699k.github.io/youtube_clone/">
-                  <button className="about btn pointer">View</button>
-                </a>
-              </div>
-            </div>
-          </div>
           
-
-
-
-
-
-
-
-
-
+          
 
 
 

@@ -24,12 +24,12 @@ const Database = () => {
           </div>
                   
           <div className="skill_item">
-            <img
+            {/* <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
               alt=""
               className="skill_img"
             />
-            <p>MongoDb</p>
+            <p>MongoDb</p> */}
           </div>
                   
           
