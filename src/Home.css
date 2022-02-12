@@ -87,6 +87,10 @@ li.sideNavbar{
     text-align: center;
 }
 
+.toggle__menu{
+    visibility: hidden
+}
+
 
 
 
@@ -105,6 +109,10 @@ svg.bi.bi-justify.white.pointer {
     width: 30px;
     height: 30px;
 }
+
+.toggle__menu{
+    visibility: visible
+}
 }
 @media only screen and (max-width: 425px){
     h2.home__text.pz__10{
@@ -119,4 +127,9 @@ h1.home__text {
 h4.home__text {
     font-size: 45px;
 }
+
+.toggle__menu{
+    visibility: visible
+}
+
 }

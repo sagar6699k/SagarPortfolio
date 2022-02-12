@@ -24,7 +24,7 @@ function Home() {
               <a href="#Home">
                 <li className="nav__items mx__15">Home</li>
               </a>
-              <a href="#About">
+              <a href="#Skill">
                 <li className="nav__items mx__15">Skills</li>
               </a>
 

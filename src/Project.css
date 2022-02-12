@@ -11,9 +11,13 @@ p.heading.p__color {
   line-height: 1.2;
 }
 .service__box {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 10px;
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-color: #191919;
   padding: 10px;
   transition: .4s ease;
@@ -36,7 +40,7 @@ p.heading.p__color {
 }
 
 .project__img2{
-  width: 90%;
+  width: 100%;
 }
 
 .tech_stack{
@@ -51,6 +55,8 @@ p.heading.p__color {
   color: #fff;
   justify-content: space-between;
   /* border:1px solid #ef0963; */
+  position: sticky;
+  bottom: 0px;
 }
 
 .img_link{
