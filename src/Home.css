@@ -90,7 +90,9 @@ li.sideNavbar{
 .toggle__menu{
     visibility: hidden
 }
-
+.resume_btn{
+    margin-left: 90%;
+}
 
 
 

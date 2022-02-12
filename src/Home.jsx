@@ -34,7 +34,12 @@ function Home() {
               <a href="#Contact">
                 <li className="nav__items mx__15">Contact</li>
               </a>
+
+              <a className="resume_btn" href="https://drive.google.com/file/d/14Y67z3KJuYtgkF3ny9YG9Td8OFLlTEuO/view?usp=sharing">
+                  <button className="about btn pointer">Download CV</button>
+              </a>
             </ul>
+
           </div>
           {/* Toogle Menu */}
           <div className="toggle__menu">
