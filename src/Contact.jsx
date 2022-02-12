@@ -70,7 +70,7 @@ function Contact() {
             <div className="contact_links">
                 <a href="https://github.com/sagar6699k">
                     <img
-                        src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+                        src="https://img.icons8.com/fluency/96/000000/github.png"
                         alt=""
                         className="contact_link_img"
                     />
