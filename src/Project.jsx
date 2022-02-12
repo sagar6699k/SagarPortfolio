@@ -68,6 +68,50 @@ function Project() {
             </div>
           </div>
 
+
+          <div className="col__2">
+            <div className="service__box pointer">
+              <div className="icon">
+                <img src={KickStart} alt="" className="project__img2" />
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">Kickstarter-Clone</h1>
+                <p className="p service__text p__color">
+                  Kickstarter is a US based crowdfunding website, where the
+                  creators will share their ideas with the communities and the
+                  communities will fund them to bring that idea to a reality.
+                </p>
+              </div>
+
+              <div className="tech_stack">
+                <h5>Tech Stack : </h5>
+                <p className="p service__text p__color">
+                  ReactJS | NodeJS | Express | Mongodb | CSS
+                </p>
+              </div>
+
+              <div className="project_links">
+                <div className="img_link">
+                  <a href="https://github.com/sagar6699k/Atom">
+                    <BsGithub className="github_icon" />
+                  </a>
+
+                  <a href="https://medium.com/@shubh.110394/kickstarter-website-development-744de3a36c56">
+                    <ImBlogger2 className="github_icon" />
+                  </a>
+                </div>
+                <a href="https://atom-client.vercel.app/">
+                  <button className="about btn pointer">View</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          
+
           <div className="col__2">
             <div className="service__box pointer">
               <div className="icon">
@@ -104,44 +148,6 @@ function Project() {
                   </a>
                 </div>
                 <a href="https://e-waste-management.netlify.app/">
-                  <button className="about btn pointer">View</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__2">
-            <div className="service__box pointer">
-              <div className="icon">
-                <img src={KickStart} alt="" className="project__img2" />
-              </div>
-              <div className="service__meta">
-                <h1 className="service__text">Kickstarter-Clone</h1>
-                <p className="p service__text p__color">
-                  Kickstarter is a US based crowdfunding website, where the
-                  creators will share their ideas with the communities and the
-                  communities will fund them to bring that idea to a reality.
-                </p>
-              </div>
-
-              <div className="tech_stack">
-                <h5>Tech Stack : </h5>
-                <p className="p service__text p__color">
-                  ReactJS | NodeJS | Express | Mongodb | CSS
-                </p>
-              </div>
-
-              <div className="project_links">
-                <div className="img_link">
-                  <a href="https://github.com/sagar6699k/Atom">
-                    <BsGithub className="github_icon" />
-                  </a>
-
-                  <a href="https://medium.com/@shubh.110394/kickstarter-website-development-744de3a36c56">
-                    <ImBlogger2 className="github_icon" />
-                  </a>
-                </div>
-                <a href="https://atom-client.vercel.app/">
                   <button className="about btn pointer">View</button>
                 </a>
               </div>
